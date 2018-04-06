@@ -1,0 +1,516 @@
+[
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1522952071000,
+            "changeTime": 1522952071000,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1522952071000,
+            "changeTime": 1522952071000,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default",
+            "isDirectory": true,
+            "size": 170,
+            "modifiedTime": 1523040818000,
+            "changeTime": 1523040818000,
+            "contentHash": "59fed01f15f48af1832d16ca7bfdfe06fa947fa2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 170,
+            "modifiedTime": 1523046191000,
+            "changeTime": 1523046191000,
+            "contentHash": "72d8be34b7938b921d33146011e0c3757ecdea5a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn",
+            "isDirectory": true,
+            "size": 306,
+            "modifiedTime": 1522953126000,
+            "changeTime": 1522953126000,
+            "contentHash": "482aba1731d0a586e52ba05892f68b26d69ba4fe",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/staticresources/LunchLearnTestSuite.resource-meta.xml",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/staticresources/LunchLearnTestSuite.resource-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1523036903000,
+            "changeTime": 1523036903000,
+            "contentHash": "4486a1b0b1ebebd2232bda16dbb5cd729d92d089",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/staticresources/LunchLearnTestSuite.js",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/staticresources/LunchLearnTestSuite.js",
+            "isDirectory": false,
+            "size": 4604,
+            "modifiedTime": 1523046123000,
+            "changeTime": 1523046123000,
+            "contentHash": "f66fea8762deab370a775a6ab8e25c455b2c420a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/staticresources",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/staticresources",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1523036903000,
+            "changeTime": 1523036903000,
+            "contentHash": "169e73483cb4a23152c4767f27ee63e0a97790bf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp",
+            "isDirectory": true,
+            "size": 374,
+            "modifiedTime": 1523034153000,
+            "changeTime": 1523034153000,
+            "contentHash": "c9b45274c09c9bb631efcc183babae3c714f0f91",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmp.auradoc",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmp.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1523034153000,
+            "changeTime": 1523034153000,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmp.cmp",
+        {
+            "state": "u",
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmp.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1294,
+            "modifiedTime": 1523046345000,
+            "changeTime": 1523046345000,
+            "contentHash": "25436033dc1209113ddeb752584d60194c319a79"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmp.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmp.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 245,
+            "modifiedTime": 1523034153000,
+            "changeTime": 1523034153000,
+            "contentHash": "5b67a82a5d8e19a31146309f3949640a90dcf519",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmp.css",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmp.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1523034153000,
+            "changeTime": 1523034153000,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmp.design",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmp.design",
+            "isDirectory": false,
+            "size": 40,
+            "modifiedTime": 1523034153000,
+            "changeTime": 1523034153000,
+            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmp.svg",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmp.svg",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1523034153000,
+            "changeTime": 1523034153000,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmpController.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmpController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2339,
+            "modifiedTime": 1523046377000,
+            "changeTime": 1523046377000,
+            "contentHash": "c06f5f6b4837607234379bc364858ca452608b02"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmpHelper.js",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmpHelper.js",
+            "isDirectory": false,
+            "size": 45,
+            "modifiedTime": 1523034153000,
+            "changeTime": 1523034153000,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmpRenderer.js",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnCmp/LunchLearnCmpRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1523034153000,
+            "changeTime": 1523034153000,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/classes",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1523040818000,
+            "changeTime": 1523040818000,
+            "contentHash": "1dd6ea0ac29b2bc91ec5716e1f23957e429601a2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/classes/LunchLearnController.cls",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/classes/LunchLearnController.cls",
+            "isDirectory": false,
+            "size": 368,
+            "modifiedTime": 1523040943000,
+            "changeTime": 1523040943000,
+            "contentHash": "684d7a790218bc0a7c9d514678b58fe0bd5431a8",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/classes/LunchLearnController.cls-meta.xml",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/classes/LunchLearnController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 198,
+            "modifiedTime": 1523040818000,
+            "changeTime": 1523040818000,
+            "contentHash": "3a519d643bb9f696f1e1f79dca1e963245d2e854",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner",
+            "isDirectory": true,
+            "size": 340,
+            "modifiedTime": 1523041378000,
+            "changeTime": 1523041378000,
+            "contentHash": "a68db4c6fc1343a9f8839b6c7301d513dd979b50",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunner.app",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunner.app",
+            "isDirectory": false,
+            "size": 149,
+            "modifiedTime": 1523041438000,
+            "changeTime": 1523041438000,
+            "contentHash": "7978641eb831d2ce1469b7add30eb8409506a4b8",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunner.app-meta.xml",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunner.app-meta.xml",
+            "isDirectory": false,
+            "size": 251,
+            "modifiedTime": 1523041378000,
+            "changeTime": 1523041378000,
+            "contentHash": "98510f42822be3e2e768397174805b61c093fb20",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunner.auradoc",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunner.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1523041378000,
+            "changeTime": 1523041378000,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunner.css",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunner.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1523041378000,
+            "changeTime": 1523041378000,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunner.svg",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunner.svg",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1523041378000,
+            "changeTime": 1523041378000,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunnerController.js",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunnerController.js",
+            "isDirectory": false,
+            "size": 65,
+            "modifiedTime": 1523041378000,
+            "changeTime": 1523041378000,
+            "contentHash": "194250e0c86b1981f8d4e7246be6b32954c6deaf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunnerHelper.js",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunnerHelper.js",
+            "isDirectory": false,
+            "size": 45,
+            "modifiedTime": 1523041378000,
+            "changeTime": 1523041378000,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunnerRenderer.js",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/AlecJasmineRunner/AlecJasmineRunnerRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1523041378000,
+            "changeTime": 1523041378000,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp",
+            "isDirectory": true,
+            "size": 340,
+            "modifiedTime": 1523046191000,
+            "changeTime": 1523046191000,
+            "contentHash": "9d0df4ceab7d4ab117d594c5526ae7da6a4889b3",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnApp.app",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnApp.app",
+            "isDirectory": false,
+            "size": 66,
+            "modifiedTime": 1523046198000,
+            "changeTime": 1523046198000,
+            "contentHash": "e6457af6cd4236d25ac3b727492f27a9eb0303b3",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnApp.app-meta.xml",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnApp.app-meta.xml",
+            "isDirectory": false,
+            "size": 247,
+            "modifiedTime": 1523046191000,
+            "changeTime": 1523046191000,
+            "contentHash": "a72345ec5bc54bf322e4b4873bab9eb5f696d48f",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnApp.auradoc",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnApp.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1523046191000,
+            "changeTime": 1523046191000,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnApp.css",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnApp.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1523046191000,
+            "changeTime": 1523046191000,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnApp.svg",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnApp.svg",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1523046191000,
+            "changeTime": 1523046191000,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnAppController.js",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnAppController.js",
+            "isDirectory": false,
+            "size": 65,
+            "modifiedTime": 1523046191000,
+            "changeTime": 1523046191000,
+            "contentHash": "194250e0c86b1981f8d4e7246be6b32954c6deaf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnAppHelper.js",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnAppHelper.js",
+            "isDirectory": false,
+            "size": 45,
+            "modifiedTime": 1523046191000,
+            "changeTime": 1523046191000,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnAppRenderer.js",
+        {
+            "sourcePath": "/Users/alecng/Documents/projects/lunch-learn/force-app/main/default/aura/LunchLearnApp/LunchLearnAppRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1523046191000,
+            "changeTime": 1523046191000,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ]
+]

@@ -1,0 +1,49 @@
+<aura:component
+    controller="LunchLearnController"
+    description="Simple stack component that renders the top of the stack as well as the stack itself 
+        in the DOM and allows the user to pop / push values from the stack">
+
+    <aura:attribute type="String" name="currentState" />
+    <aura:attribute type="Set" name="stateHistoryStack" default="[]" />
+    <aura:attribute type="String" name="userState" />
+
+    <aura:method name="pushState" action="{!c.pushState}" />
+    <aura:method name="popState" action="{!c.popState}" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.getState}" />
+
+    <!-- Markup -->
+
+    <div id="mainContainer">
+        
+        <h1 id="current-state-header">CurrentState: {!v.currentState}</h1>
+        <h2>History Stack:</h2>
+        <ol>
+            <aura:iteration items="{!v.stateHistoryStack}" var="state">
+                <li>{!state}</li>
+            </aura:iteration>
+        </ol>
+
+        <hr/>
+
+        <lightning:input
+            aura:id="state-input"
+            type="text"
+            label="Input a new state to push"
+            value="{!v.userState}" 
+        />
+        <lightning:button 
+            label="Submit New State"
+            onclick="{!c.pushState}" 
+        />
+
+        <hr/>
+
+        <lightning:button
+            label="Pop State"
+            onclick="{!c.popState}"
+        />
+
+    </div>
+    
+</aura:component>	
