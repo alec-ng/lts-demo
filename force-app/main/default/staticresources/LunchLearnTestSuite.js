@@ -37,6 +37,7 @@ describe("LunchLearnCmp", function() {
                 expect(cmp.get("v.currentState")).toBe(INITIAL_STATE);
                 expect(cmp.get("v.stateHistoryStack").length).toBe(1);
                 expect(cmp.get("v.stateHistoryStack")).toEqual([INITIAL_STATE]);
+                expect(cmp.get("v.errorMsg")).toBeFalsy();
                 done();
             })
             .catch(function(e) {
@@ -52,8 +53,8 @@ describe("LunchLearnCmp", function() {
                 userInputEle.set("v.value", newState);
                 cmp.pushState();
 
-                expect(cmp.get("v.currentState")).toBe(newState);
                 let stateHistoryStack = cmp.get("v.stateHistoryStack");
+                expect(cmp.get("v.currentState")).toBe(newState);
                 expect(stateHistoryStack.length).toBe(2);
                 expect(stateHistoryStack[1]).toBe(newState);
 
@@ -68,14 +69,17 @@ describe("LunchLearnCmp", function() {
         $T.createComponent("c:LunchLearnCmp", {}, true)
             .then(function(cmp) {
                 let userInputEle = cmp.find(AURA_ID_INPUT);
+                
                 userInputEle.set("v.value", INITIAL_STATE);
                 cmp.pushState();
                 expect(cmp.get("v.stateHistoryStack").length).toBe(1);
+                expect(cmp.get("v.errorMsg")).toBeTruthy();
 
                 userInputEle.set("v.value", "");
                 cmp.pushState();
                 expect(cmp.get("v.stateHistoryStack").length).toBe(1);
-
+                expect(cmp.get("v.errorMsg")).toBeTruthy();
+                
                 done();
             })
             .catch(function(e) {
@@ -87,7 +91,9 @@ describe("LunchLearnCmp", function() {
         $T.createComponent("c:LunchLearnCmp", {}, true)
             .then(function(cmp) {
                 cmp.popState();
+                expect(cmp.get("v.errorMsg")).toBeTruthy();
                 expect(cmp.get("v.stateHistoryStack").length).toBe(1);
+
                 done();
             })
             .catch(function(e) {

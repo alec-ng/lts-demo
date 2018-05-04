@@ -3,9 +3,11 @@
     description="Simple stack component that renders the top of the stack as well as the stack itself 
         in the DOM and allows the user to pop / push values from the stack">
 
-    <aura:attribute type="String" name="currentState" />
-    <aura:attribute type="Set" name="stateHistoryStack" default="[]" />
-    <aura:attribute type="String" name="userState" />
+    <aura:attribute type="String" name="currentState" description="Holds the top of the stack" />
+    <aura:attribute type="Set" name="stateHistoryStack" description="Stack implementation using a set" default="[]" />
+    <aura:attribute type="List" name="displayStack" description="Holds the reverse of stateHistoryStack for display purposes" />
+    <aura:attribute type="String" name="userState" description="Contains the value of the new state input" />
+    <aura:attribute type="String" name="errorMsg" description="User facing error generated from controller method fault"/>
 
     <aura:method name="pushState" action="{!c.pushState}" />
     <aura:method name="popState" action="{!c.popState}" />
@@ -19,12 +21,13 @@
         <h1 id="current-state-header">CurrentState: {!v.currentState}</h1>
         <h2>History Stack:</h2>
         <ol>
-            <aura:iteration items="{!v.stateHistoryStack}" var="state">
+            <aura:iteration items="{!v.displayStack}" var="state">
                 <li>{!state}</li>
             </aura:iteration>
         </ol>
 
-        <hr/>
+        <br/>
+        <br/> 
 
         <lightning:input
             aura:id="state-input"
@@ -36,13 +39,13 @@
             label="Submit New State"
             onclick="{!c.pushState}" 
         />
-
-        <hr/>
-
         <lightning:button
             label="Pop State"
             onclick="{!c.popState}"
         />
+        <aura:if isTrue="{! !empty(v.errorMsg)}">
+            <p class="red">{!v.errorMsg}</p>
+        </aura:if>
 
     </div>
     

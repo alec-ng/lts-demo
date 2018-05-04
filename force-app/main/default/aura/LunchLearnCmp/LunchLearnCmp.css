@@ -1,2 +1,15 @@
-.THIS {
+.THIS#mainContainer {
+    margin: 20px;
+} 
+.THIS h1, .THIS h2 {
+    margin: 10px;
+}
+.THIS h1 {
+    font-size: 24px;
+}
+.THIS h2 {
+    font-size: 20px;
+}
+.THIS .red {
+    color: red;
 }

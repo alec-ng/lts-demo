@@ -10,8 +10,9 @@
                 let initialState = response.getReturnValue();
                 cmp.set("v.currentState", initialState);
                 cmp.set("v.stateHistoryStack", [initialState]);
+                cmp.set("v.displayStack", [initialState]);
             } else {
-                throw repsonse.getError()[0].message;
+                cmp.set("v.errorMsg", "Whoops, something went wrong behind the scenes! Please refresh and try again.");
             }
         });
         $A.enqueueAction(action);
@@ -26,20 +27,22 @@
     pushState: function(cmp, event, helper) {
         let userState = cmp.get("v.userState");
         if (!userState || !userState.trim()) {
-            alert("Please enter a non empty value for the new state.");
+            cmp.set("v.errorMsg", "Please enter a non empty value for the new state.");
             return;
         }
 
         let stateHistoryStack = cmp.get("v.stateHistoryStack");
         if (stateHistoryStack.indexOf(userState) !== -1) {
-            alert(userState + " already exists. Please enter another value.");
+            cmp.set("v.errorMsg", userState + " already exists. Please enter another value.");
             return;
         }
 
         stateHistoryStack.push(userState);
         cmp.set("v.stateHistoryStack", stateHistoryStack);
+        cmp.set("v.displayStack", stateHistoryStack.reverse());
         cmp.set("v.currentState", userState);
         cmp.set("v.userState", "");
+        cmp.set("v.errorMsg", "");
     },
 
     /**
@@ -50,14 +53,16 @@
     popState: function(cmp, event, helper) {
         let stateHistoryStack = cmp.get("v.stateHistoryStack");
         if (stateHistoryStack.length <= 1) {
-            alert("You cannot have an empty stack. Push a state before popping.");
+            cmp.set("v.errorMsg", "You cannot have an empty stack. Push a state before popping.");
             return;
         }
-        // Remove the top of the stack, defined by the last index of the array
-        stateHistoryStack.splice(stateHistoryStack.length - 1, 1);
+        
+        stateHistoryStack.pop();
 
         cmp.set("v.currentState", stateHistoryStack[stateHistoryStack.length - 1]);
         cmp.set("v.stateHistoryStack", stateHistoryStack);
+        cmp.set("v.displayStack", stateHistoryStack.reverse());
+        cmp.set("v.errorMsg", "");
     }
 
 })
